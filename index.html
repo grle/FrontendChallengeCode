@@ -2,21 +2,24 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>BUSY BUS FRONTEND FUNDAMENTALS CHALLENGE</title>
+    <title>BUSYBUS FRONTEND FUNDAMENTALS CHALLENGE</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <script src="https://use.fontawesome.com/37471687aa.js"></script>
   </head>
   <body>
     <section class="container">
-      <header>
-        <nav>
-          <div class="back">
-            <i class="fa fa-chevron-left fa-2x" aria-hidden="true"> Back</i>
-          </div>
-          <div class = "title">BusyBus</div>
-        </nav>
-      </header>
+
+      <nav>
+        <div class="ux_bar">
+          <img src="/images/UI_Bar.PNG" alt="UI Bar">
+        </div>
+        <div class="back">
+          <i class="fa fa-chevron-left fa-2x" aria-hidden="true"></i>
+        </div>
+        <p>Back</p>
+        <div class= "title">BusyBus</div>
+      </nav>
 
       <section class= "stop-name">ARRIVING AT
         <span class= "emphasis">WASHINGTON & STATE</span></section>
@@ -24,101 +27,112 @@
       <section class="bus-stops">
 
         <article class="destination">
-          <h1>EASTBOUND</h1>
-          <h2>Randolph/Harbor Dr</h2>
-          <figure class= "line">
-            <h3>60</h3>
-          </figure>
-          <figure class= "frequency">
+          <h3>60</h3>
+          <div class="bind">
+            <h1>EASTBOUND</h1>
+            <h2>Randolph/Harbor Dr</h2>
+          </div>
+          <div class="frequency">
+            <h5>EVERY</h5>
             <h4>20 mins</h4>
-          </figure>
+          </div>
         </article>
         <article class="destination">
-          <h1>EASTBOUND</h1>
-          <h2>Navy Pier</h2>
-          <figure class= "line">
-            <h3>124</h3>
-          </figure>
-          <figure class= "frequency">
+          <h3>124</h3>
+          <div class="bind">
+            <h1>EASTBOUND</h1>
+            <h2>Navy Pier</h2>
+          </div>
+          <div class="frequency">
+            <h5>EVERY</h5>
             <h4>10 mins</h4>
-          </figure>
+          </div>
         </article>
-
         <article class="destination">
-          <h1>NORTHBOUND</h1>
-          <h2>Devon/Clark</h2>
-          <figure class= "line">
-            <h3>151</h3>
-          </figure>
-          <figure class= "frequency">
+          <h3>151</h3>
+          <div class="bind">
+            <h1>NORTHBOUND</h1>
+            <h2>Devon/Clark</h2>
+          </div>
+          <div class="frequency">
+            <h5>EVERY</h5>
             <h4>16 mins</h4>
-          </figure>
+          </div>
         </article>
-
         <article class="destination">
-          <h1>SOUTHBOUND</h1>
-          <h2>103rd/Stony Island</h2>
-          <figure class= "line">
-            <h3>J14</h3>
-          </figure>
-          <figure class= "frequency">
+          <h3>J14</h3>
+          <div class="bind">
+            <h1>SOUTHBOUND</h1>
+            <h2>103rd/Stony Island</h2>
+          </div>
+          <div class="frequency">
+            <h5>EVERY</h5>
             <h4>15 mins</h4>
-          </figure>
+          </div>
         </article>
         <article class= "destination">
-          <h1>SOUTHBOUND</h1>
-          <h2>Navy Pier</h2>
-          <figure class= "line">
-            <h3>124</h3>
-          </figure>
-          <figure class= "frequency">
+          <h3>124</h3>
+          <div class="bind">
+            <h1>SOUTHBOUND</h1>
+            <h2>Navy Pier</h2>
+          </div>
+          <div class="frequency">
+            <h5>EVERY</h5>
             <h4>10 mins</h4>
-          </figure>
+          </div>
         </article>
 
         <article class= "destination">
-          <h1>REROUTE</h1>
-          <h2>Jackson Park Express</h2>
-          <figure class= "line">
-            <h6>6x</h6>
-          </figure>
-          <figure class= "frequency-NA">
-            <h4>N/A</h4>
-          </figure>
+          <div class= "line">
+            <h3 class = "NA">6x</h3>
+          </div>
+          <div class="bind">
+            <h1>REROUTE</h1>
+            <h2>Jackson Park Express</h2>
+          </div>
+          <div class= "frequency">
+            <h4 class= "OOS">N/A</h4>
+          </div>
         </article>
 
         <article class= "destination">
-          <h1>OUT OF SERVICE</h1>
-          <h2>Cottage Grove</h2>
-          <figure class= "line">
-            <h6>4</h6>
-          </figure>
-          <figure class= "frequency-resumes">
+          <div class= "line">
+            <h3 class = "NA">4</h3>
+          </div>
+          <div class="bind">
+            <h1>OUT OF SERVICE</h1>
+            <h2>Cottage Grove</h2>
+          </div>
+          <div class= "frequency">
             <h5>RESUMES</h5>
-            <h4>12:10 AM</h4>
-          </figure>
+            <h4 class="OOS">12:10 AM</h4>
+          </div>
         </article>
         <article class= "destination">
-          <h1>OUT OF SERVICE</h1>
-          <h2>Madison</h2>
-          <figure class= "line">
-            <h6>20</h6>
-          </figure>
-          <figure class= "frequency-resumes">
+          <div class= "line">
+            <h3 class = "NA">20</h3>
+          </div>
+          <div class="bind">
+            <h1>OUT OF SERVICE</h1>
+            <h2>Madison</h2>
+          </div>
+          <div class= "frequency">
             <h5>RESUMES</h5>
-            <h4>12:10 AM</h4>
-          </figure>
+            <h4 class="OOS">12:10 AM</h4>
+          </div>
         </article>
         <article class= "destination">
-          <h1>OUT OF SERVICE</h1>
-          <h2>Streeterville/Taylor</h2>
-          <figure class= "line">
-            <h6>157</h6>
-          </figure>
-          <figure class= "frequency-resumes">
+          <div class= "line">
+            <h3 class = "NA">157</h3>
+          </div>
+          <div class="bind">
+            <h1>OUT OF SERVICE</h1>
+            <h2>Streeterville/Taylor</h2>
+          </div>
+          <div class= "frequency">
             <h5>RESUMES</h5>
-            <h4>6:00 AM</h4>
-          </figure>
+            <h4 class="OOS">6:00 AM</h4>
+          </div>
         </article>
 
     </section>
