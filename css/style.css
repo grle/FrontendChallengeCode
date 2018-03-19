@@ -2,18 +2,14 @@
   box-sizing: border-box;
 }
 
-body {
+
+body, th, td {
   background-color: #333;
-  font-family: sans-serif;
+  font-family: Roboto;
   font-size: 15px;
   line-height: 1.3;
 }
-nav {
-  position: fixed;
-  width: 360px;
-  background-color: #F8F8F8;
-  border-bottom: 1px solid grey;
-}
+
 img {
   width: 360px;
 }
@@ -61,30 +57,24 @@ h5 {
   width: 360px;
 }
 
-/*repetitive*/
-.back {
+nav {
+  position: fixed;
+  width: 360px;
+  background-color: #F8F8F8;
+  border-bottom: 1px solid grey;
+  font-size: 20px;
+}
+.back, p {
   float: left;
   padding-left: 15px;
-  padding-top: 30px;
+  padding-top: 20px;
   padding-bottom: 5px;
   color: #077DFF;
-}
-p {
-  color: #077DFF;
-  font-family: sans-serif;
-  font-size: 20px;
-  padding-left: 5px;
-  padding-top: 30px;
-  padding-bottom: 5px;
-  float: left;
 }
 .title {
-  padding-top: 30px;
-  padding-bottom: 5px;
-  padding-left: 140px;
-  font-size: 20px;
+  padding-top: 20px;
+  padding-left: 150px;
 }
-/**/
 
 .emphasis {
   font-weight: bold;
